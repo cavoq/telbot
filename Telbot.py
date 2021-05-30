@@ -1,4 +1,5 @@
 import pyautogui
+
 import sys, time
 import os
 import argparse
@@ -11,7 +12,6 @@ class Bot:
         self.groups = self.get_groups(group_file)
         self.advert_link = advert_link
         self.log = open('log.txt','w')
-        self.init_telweb()
 
     def log_(self, string):
         now = datetime.now()
@@ -72,16 +72,6 @@ class Bot:
             else:
                 pyautogui.press(letter)
         pyautogui.press('enter')
-
-    def init_telweb(self):
-        if self.locate_position("init.png"):
-            try:
-                os.system('firefox https://web.telegram.org/#/login')
-            except:
-                self.log_('Could not open firefox')
-                return False
-        else:
-            self.log_('Dont have to open firefox')
 
     def remove_advert_bar(self):
         self.click("Advert_Bar.png")
