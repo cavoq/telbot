@@ -25,4 +25,4 @@ python3 Telbot.py --help
 ```
 python3 Telbot.py -f groups.txt -l https://www.youtube.com/watch?v=unUXGT0cmZQ -t 40 
 ```
-This will post a Youtube link in the groups, provided by the groups.txt file for 40 minutes 
+This will post a youtube link in the groups, provided by the groups.txt file for 40 minutes 
