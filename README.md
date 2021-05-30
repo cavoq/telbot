@@ -15,7 +15,7 @@ chmod +x install.sh
 sudo ./install.sh
 ```
 ## Usage
-You should have Telegram-web already opened when starting this script, otherwise this script will open Telegram-web and you have to log in first
+This script will recognize if Telegram-web is opened and you are logged in, it will start as soon you are logged in Telegram-web
 ```
 python3 Telbot.py --help
 ```
