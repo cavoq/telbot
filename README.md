@@ -2,10 +2,8 @@
 Telbot is an advertising bot for Telegram based on the PyAutoGUI module, you can automate advertising in groups with this Project
 
 ## Requirements
-- Python>=3.4
-- python3-tk 
-- PyAutoGUI
-- 
+For this script to work, you need to have Python3 installed, the other requirements will be installed with the installation script 
+
 ## Installation
 1. Clone the repository
 ```
