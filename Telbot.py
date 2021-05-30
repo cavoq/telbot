@@ -74,11 +74,14 @@ class Bot:
         pyautogui.press('enter')
 
     def init_telweb(self):
-        try:
-            os.system('firefox https://web.telegram.org/#/login')
-        except:
-            self.log_('Could not open firefox')
-            return False
+        if self.locate_position("init.png"):
+            try:
+                os.system('firefox https://web.telegram.org/#/login')
+            except:
+                self.log_('Could not open firefox')
+                return False
+        else:
+            self.log_('Dont have to open firefox')
 
     def remove_advert_bar(self):
         self.click("Advert_Bar.png")
@@ -154,6 +157,6 @@ def run(delay):
     file, timeout, link = get_args()
     time.sleep(delay)
     bot = Bot(file, link)
-    #bot.advertise(timeout)
+    bot.advertise(timeout)
 
 run(5)
