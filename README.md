@@ -26,3 +26,10 @@ python3 Telbot.py --help
 python3 Telbot.py -f groups.txt -l https://www.youtube.com/watch?v=unUXGT0cmZQ -t 40 
 ```
 This will post a youtube link in the groups, provided by the groups.txt file for 40 minutes 
+
+Clear Log file:
+```
+chmod +x clear.sh
+sudo ./clear.sh
+```
+The Log file will be automatically cleared when you start a new session
