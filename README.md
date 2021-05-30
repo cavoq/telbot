@@ -5,11 +5,11 @@ Telbot is an advertising bot for Telegram based on the PyAutoGUI module, you can
 For this script to work, you need to have python3 installed, the other requirements will be installed with the installation script 
 
 ## Installation
-1. Clone the repository
+**1. Clone the repository**
 ```
 git clone https://github.com/Dav3o/Telbot.git
 ```
-2. Install requirements
+**2. Install requirements**
 ```
 chmod +x install.sh
 sudo ./install.sh
@@ -27,7 +27,7 @@ python3 Telbot.py -f groups.txt -l https://www.youtube.com/watch?v=unUXGT0cmZQ -
 ```
 This will post a youtube link in the groups, provided by the groups.txt file for 40 minutes 
 
-Clear Log file:
+**Clear Log file:**
 ```
 chmod +x clear.sh
 sudo ./clear.sh
