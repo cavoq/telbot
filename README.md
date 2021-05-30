@@ -4,7 +4,7 @@ Telbot is an advertising bot for Telegram based on the PyAutoGUI module, you can
 ## Installation
 1. Clone the repository
 ```
-git clone 
+git clone https://github.com/Dav3o/Telbot.git
 
 ```
 2. Install requirements
