@@ -15,6 +15,7 @@ chmod +x install.sh
 sudo ./install.sh
 ```
 ## Usage
+You should have Telegram-web already opened when starting this script
 ```
 python3 Telbot.py --help
 ```
