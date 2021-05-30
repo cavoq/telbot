@@ -13,6 +13,7 @@ chmod +x install.sh
 sudo ./install.sh
 ```
 ##Usage
+
 Basic description is given with:
 ```
 python3 Telbot.py --help
