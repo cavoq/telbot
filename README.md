@@ -12,4 +12,8 @@ git clone https://github.com/Dav3o/Telbot.git
 chmod +x install.sh
 sudo ./install.sh
 ```
-
+##Usage
+Basic description is given with:
+```
+python3 Telbot.py --help
+```
