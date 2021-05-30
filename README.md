@@ -20,9 +20,8 @@ python3 Telbot.py --help
 ```
 ![grafik](https://user-images.githubusercontent.com/61215846/120109041-033cae00-c168-11eb-9996-08b79a4f13da.png)
 
-Example:
-
-This will post a Youtube link in the groups, provided by the groups.txt file for 40 minutes 
+*Example*:
 ```
 python3 Telbot.py -f groups.txt -l https://www.youtube.com/watch?v=unUXGT0cmZQ -t 40 
 ```
+This will post a Youtube link in the groups, provided by the groups.txt file for 40 minutes 
