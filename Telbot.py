@@ -1,5 +1,4 @@
 import pyautogui
-
 import sys, time
 import os
 import argparse
